@@ -1,4 +1,4 @@
-class AddBranchesToChangesets < ActiveRecord::Migration
+class AddBranches < ActiveRecord::Migration
   def self.up
     add_column :changesets, :branches, :text
   end
